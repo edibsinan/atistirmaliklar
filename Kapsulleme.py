@@ -32,15 +32,12 @@ class Araba:
     def hiz_goruntule(self):
         print(f"Şu anki hız: {self.__hiz} km/h")
 
-
-
-
 araba = Araba()
 
 araba.hiz_goruntule()
 araba.hiz_artir(20)
 araba.motoru_baslat()
-araba.hiz_artir(20)
+araba.hiz_artir(-20)
 araba.motoru_durdur()
 araba.hiz_artir(-20)
 araba.motoru_durdur()
