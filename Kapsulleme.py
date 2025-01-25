@@ -9,7 +9,6 @@ class Araba:
             print("Motor çalıştırıldı.")
         else:
             print("Motor zaten çalışıyor.")
-
     def motoru_durdur(self):
         if self.__calisiyor_mu:
             if self.__hiz == 0:  # Motoru durdurmak için hızın sıfır olması gerekir
